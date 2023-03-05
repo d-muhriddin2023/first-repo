@@ -2,13 +2,14 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
   background-color: gray;
 }
 
-h1 {
+.heading {
   color: #fff;
   background-color: crimson;
   padding: 10px 30px;
@@ -16,4 +17,20 @@ h1 {
   display: inline-block;
   margin: 20px 100px;
   border-radius: 5px;
+  display: none;
+}
+
+.btn {
+  display: block;
+  padding: 5px 25px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 10px 30px;
+  border: none;
+  background-color: darkgreen;
+  color: #fff;
+}
+
+.active {
+  display: block;
 }
