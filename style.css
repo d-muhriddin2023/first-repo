@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+h1 {
+  color: #fff;
+  background-color: crimson;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  margin: 20px 100px;
+  border-radius: 5px;
+}
